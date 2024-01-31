@@ -1,0 +1,16 @@
+.height100 {
+    height: 100px;
+    color: white;
+}
+
+.light-grey-bg {
+    background-color: rgba(128, 128, 128, 0.253);
+}
+
+.light-red-bg {
+    background-color: rgb(243, 141, 226);
+}
+
+.col-border {
+    border: 1px rgb(0, 0, 0) solid;
+}
