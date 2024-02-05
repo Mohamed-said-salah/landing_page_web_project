@@ -180,7 +180,8 @@ em {
 
 /* ---------------------- Responsive -------------------------- */
 
-/* above large */
+/* Large Devices */
+
 @media (max-width: 1200px) and (min-width: 992px) {
     .title-img {
         width: 300px;
@@ -191,6 +192,8 @@ em {
         text-align: center;
     }
 }
+
+/* Medium Devices */
 
 @media (max-width: 991px) and (min-width: 768px) {
     #title .container-fluid {
@@ -204,13 +207,19 @@ em {
     }
 }
 
+/* Small Devices */
+
 @media (max-width: 767px) and (min-width: 576px) {
     #title .container-fluid {
         text-align: center;
     }
 
-    h1 {
-        font-size: 2.5rem;
+    .navbar-brand {
+        font-size: 2.3rem;
+    }
+
+    .big-heading {
+        font-size: 2.7rem;
     }
 
     .title-img {
@@ -218,11 +227,23 @@ em {
         position: static;
         transform: rotate(0deg);
     }
-    /* todo: add here the responsive heading for the title and cta */
-    /* 
-    .big-heading {
+
+    .testimonials-text {
         font-size: 2rem;
-    } */
+    }
+
+    .fa-dark-icon {
+        font-size: 32px;
+    }
+
+    em {
+        font-size: 0.95rem;
+    }
+
+    .price-text {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
 }
 
 /* Smaller Devices */
@@ -238,6 +259,10 @@ em {
 
     .navbar-brand {
         font-size: 1.8rem;
+    }
+
+    .nav-link {
+        font-size: 1.15rem;
     }
 
     .big-heading {
